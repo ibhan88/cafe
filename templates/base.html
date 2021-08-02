@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>{% block title %} TITLE GOES HERE {% endblock%}</title>
+      <link href="/static/css/styles.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <header>
+    <nav>
+      <ul>
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>About Us</li></a>
+        <a href="#"><li>Menu</li></a>
+        <a href="#"><li>Locations</li></a>
+        <a href="#"><li>Reservations</li></a>
+        <a href="#"><li>Online Orders</li></a>
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    <article>
+      {% block body %}CONTENT HERE{% endblock %}
+    </article>
+  </body>
+
+  <footer>
+
+  </footer>
+</html>
